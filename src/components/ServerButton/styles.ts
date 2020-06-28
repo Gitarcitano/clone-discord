@@ -15,7 +15,7 @@ export const Button = styled.div<Props>`
   border-radius: 50%;
 
   background-color: ${(props) => 
-    props.isHome ? 'var(--rocketseat)' : 'var(--primary)'};
+    props.isHome ? 'var(--olist)' : 'var(--primary)'};
 
   position: relative;
   cursor: pointer;
@@ -70,7 +70,7 @@ export const Button = styled.div<Props>`
   &:hover {
     border-radius: 16px;
     background-color: ${props => 
-      props.isHome ? 'var(--rocketseat)' : 'var(--discord)'};
+      props.isHome ? 'var(--olist)' : 'var(--discord)'};
   }  
 
 `;
